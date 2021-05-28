@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
 
-    <!-- Bootstrap Icons -->
-
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir My CSS -->
 
-    <title>PORTFOLIO | Nadhif R</title>
+    <title>Nadhif Ramadhan | PORTFOLIO</title>
   </head>
   <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow p-1 fixed-top" style="background-color: #3948b1">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/NR logo white.png" alt="NR logo" width="70" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact me</a>
-            </li>
-          </ul>
+    <section>
+      <header>
+        <nav class="navbar navbar-expand-lg shadow p-1 fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="img/NR logo bw.png" alt="NR logo" width="70" id="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact me</a>
+                </li>
+              </ul>
+            </div>
+            <img src="img/moon.png" id="icon" />
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Hi!<br />My name is <span>Nadhif</span></h2>
+          <p>I'm an <span>Electrical Engineering</span> student at Institut Teknologi Sepuluh Nopember.</p>
+          <a href="#projects">See my projects</a>
+        </div>
+        <div class="imgBox">
+          <img src="img/gondip-nobg.png" class="fotobadan" />
         </div>
       </div>
-    </nav>
-    <!-- Akhir Navbar -->
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/gondip.jpg" alt="Nadhif Ramadhan" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4 fw-bold">Hello, I'm Nadhif!</h1>
-      <p class="lead">Electrical Engineering Student</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L288,96L576,32L864,64L1152,96L1440,0L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
     </section>
-    <!-- Akhir Jumbotron -->
 
     <!-- About -->
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>About Me</h2>
+            <h2>Little About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-5">
-            <p>I'm a student at Institut Teknologi Sepuluh Nopember. I really like technologies and IoT, that's why I currently took the Telecommunication study program in Electrical Engineering major.</p>
+            <p>I really like technologies and IoT, that's why I currently took the Telecommunication study program in Electrical Engineering major.</p>
           </div>
           <div class="col-md-5">
-            <p>I like learning new things and want to be able to create something. Currently, I'm interested in studying web development, especially frontend development.</p>
+            <p>Moreover, I like learning new things and want to be able to create something. Currently, I'm interested in studying web development, especially frontend development.</p>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e3e6d1" fill-opacity="1" d="M0,128L288,96L576,160L864,64L1152,160L1440,128L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir About -->
 
@@ -86,35 +86,43 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card border">
               <img src="img/Projects/1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body text-center">
-                <p class="card-text">I made a simple project with HTML and CSS when I joined a Progate New Year Bootcamp.</p>
-                <a href="https://nadhifrmdhn.github.io/Simple-Project-HTML-CSS/" class="btn btn-primary stretched-link">See The Project</a>
+                <p class="card-text">This is my first web designing using Figma for Society of Renewable ITS.</p>
+                <a href="https://www.figma.com/proto/pw2bo1wjwQZhg3XEgbGwwa/Web-SRE?node-id=1%3A2&scaling=scale-down-width&page-id=0%3A1" target="_blank" class="btn btn-primary stretched-link border-0">See The Project</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card border">
               <img src="img/Projects/2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body text-center">
-                <p class="card-text">This is my Python project to train Taxi hotspots prediction.</p>
-                <a href="https://github.com/nadhifrmdhn/Taxi-hotspots-predict" class="btn btn-primary stretched-link">See The Project</a>
+                <p class="card-text">I made a simple project with HTML and CSS when I joined a Progate New Year Bootcamp.</p>
+                <a href="https://nadhifrmdhn.github.io/Simple-Project-HTML-CSS/" target="_blank" class="btn btn-primary stretched-link border-0">See The Project</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card border">
               <img src="img/Projects/3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body text-center">
+                <p class="card-text">This is my Python project to train Taxi hotspots prediction.</p>
+                <a href="https://github.com/nadhifrmdhn/Taxi-hotspots-predict" target="_blank" class="btn btn-primary stretched-link border-0">See The Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border">
+              <img src="img/Projects/4.jpg" class="card-img-top" alt="Project 4" />
+              <div class="card-body text-center">
                 <p class="card-text">This is my first SQL Project to analyze confirmed Covid 19 cases, death Covid 19 cases, and recovered Covid 19 cases.</p>
-                <a href="https://github.com/nadhifrmdhn/Analyze-Covid19-Cases" class="btn btn-primary stretched-link">See The Project</a>
+                <a href="https://github.com/nadhifrmdhn/Analyze-Covid19-Cases" target="_blank" class="btn btn-primary stretched-link border-0">See The Project</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L288,64L576,160L864,192L1152,128L1440,160L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
 
@@ -145,7 +153,7 @@
                 <label for="message" class="form-label">Message</label>
                 <textarea class="form-control" id="message" rows="3" name="message"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+              <button type="submit" class="btn btn-primary btn-submit border-0">Submit</button>
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                 <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                 Loading...
@@ -154,12 +162,11 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3948b1" fill-opacity="1" d="M0,256L480,192L960,224L1440,160L1440,320L960,320L480,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="text-white text-center pb-3" style="background-color: #3948b1">
+    <footer class="text-black text-center pb-3">
       <p>Follow me on social media</p>
       <p>© Nadhif Ramadhan 2021</p>
     </footer>
@@ -188,6 +195,20 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+
+      var icon = document.getElementById("icon");
+      var logo = document.getElementById("logo");
+
+      icon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          icon.src = "img/sun.png";
+          logo.src = "img/NR logo white.png";
+        } else {
+          icon.src = "img/moon.png";
+          logo.src = "img/NR logo bw.png";
+        }
+      };
     </script>
   </body>
 </html>
