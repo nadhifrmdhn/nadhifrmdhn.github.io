@@ -209,6 +209,14 @@ section {
   background: #5e65b3;
 }
 
+.btn-submit span {
+  background: #5e65b3;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 footer {
   color: var(--secondary-color);
   background-color: var(--primary-color);
