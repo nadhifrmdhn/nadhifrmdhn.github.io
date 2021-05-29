@@ -163,6 +163,8 @@ section {
 .card {
   transition: transform 0.2s;
   background-color: rgba(0, 0, 0, 0);
+  width: 21rem;
+  height: 26rem;
 }
 
 .card:hover {
@@ -175,7 +177,6 @@ section {
 
 .card a {
   display: inline-block;
-  margin-top: 20px;
   padding: 8px 20px;
   background: #3a43a3;
   color: var(--primary-color);
