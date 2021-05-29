@@ -127,15 +127,28 @@ section {
 }
 
 .content .imgBox {
-  width: 600px;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
-  margin-top: 50px;
+  width: 20%;
+  height: 130%;
+  position: absolute;
+  bottom: 3;
+  right: 100px;
 }
 
 .content .imgBox img {
-  max-width: 350px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.content .imgBox:hover .latar {
+  bottom: 10px;
+}
+
+.content .imgBox:hover .fotobadan {
+  left: 80px;
 }
 
 #about {
@@ -220,4 +233,5 @@ footer .text-xs {
 
 .fa:hover {
   opacity: 0.7;
+  color: #017143;
 }
